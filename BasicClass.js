@@ -13,6 +13,13 @@ honk(){
     console.log("Beep beep! ");
     
 }
+
+getInfo (){
+
+return `This car is a  ${this.brand}`
+
+
+}
 }
 
 
@@ -23,6 +30,8 @@ console.log(myCar.brand);
 
 
 myCar.honk()
+
+console.log(myCar.getInfo());
 
 
 
